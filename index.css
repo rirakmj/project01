@@ -1,5 +1,11 @@
 @import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
 
+@media(max-width:800px){
+    #header {
+    display: outside;
+    }
+}     
+
 body {
     background-image: url('main_image.jpg');
     background-repeat: repeat-y;
@@ -7,12 +13,12 @@ body {
 
 .section {
 position: relative;
-height: 100vh;
+height: 80vh;
 }
 
 .section .section-center {
 position: absolute;
-top: 25%;
+top: 30%;
 left: 0;
 right: 0;
 -webkit-transform: translateY(-50%);
