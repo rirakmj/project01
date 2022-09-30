@@ -112,4 +112,15 @@ font-weight: bold;
         color: yellow;
         background-color: transparent;
         text-decoration: underline;
-      } 
+      }
+
+/* footer 양식 설정 */
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+        text-align: center;
+     }
