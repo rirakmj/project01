@@ -112,3 +112,13 @@ width: 100%;
 #dropdown:hover .dropdown-content {
     display: block;
   }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    text-align: center;
+ }
