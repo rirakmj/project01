@@ -1,5 +1,6 @@
 @import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
 
+/* 화면 축소되면 footer 미표시 */
 @media (max-width:768px) {
   .footer {
     display: none;
@@ -12,6 +13,8 @@ body {
     background-repeat: no-repeat;
     height: 100%;
 }
+
+
 
 /* 드롭다운 메뉴 추가 */
 .dropbtn {
