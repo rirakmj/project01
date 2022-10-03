@@ -11,7 +11,7 @@ font-family: 'Numans', sans-serif;
 }
 
 .container{
-height: 100%;
+height: 80%;
 align-content: center;
 }
 
@@ -92,6 +92,7 @@ margin-left: 4px;
 input[type="submit"] {
 font-weight: bold;
 }
+
 /* 링크 문구 색 변경 */
       a:link {
         color: aqua;
@@ -103,19 +104,9 @@ font-weight: bold;
         background-color: transparent;
         text-decoration: none;
       }
-      a:hover {
-        color: red;
-        background-color: transparent;
-        text-decoration: underline;
-      }
-      a:active {
-        color: yellow;
-        background-color: transparent;
-        text-decoration: underline;
-      }
 
 /* footer 양식 설정 */
-      .footer {
+      .footer p {
         position: fixed;
         left: 0;
         bottom: 0;
